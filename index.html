@@ -2,56 +2,81 @@
 <html>
 <head>
 	<title>Ma gallerie photo</title>
+	
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
+	<script type="js/lightbox.min.js"></script>
 </head>
 <body>
-	<header>Mon Menu</header>
+	<header>Mes Vacances</header>
 	
+	<main>
 	<main class="mygallery">
 		
 		<div class="column">
 			<div class="title">Vacance à Nosy Be Hell Ville</div>
 			<div class="img">
-				<img src="images/img6.jpg">
+				<a href="images/img6.jpg" data-title="My caption" data-lightbox="Nosy"><img src="images/img6.jpg"></a>
 				<div class="desc">Millikilao Transport en commun</div>
 			</div>
 			<div class="img">
-				<img src="images/img5.jpg">
-				<div class="desc">Millikilao Transport en commun</div>
+				<a href="images/img5.jpg" data-lightbox="Nosy"><img src="images/img5.jpg"></a>
+				<div class="desc">Hôtel&Restaurant IMAHO</div>
 			</div>
 			<div class="img">
-				<img src="images/img1.jpg">
-				<div class="desc">Millikilao Transport en commun</div>
-			</div>
-			<div class="img">
-				<img src="images/img2.jpg">
-				<div class="desc">Millikilao Transport en commun</div>
+				<a href="images/img1.jpg" data-lightbox="Nosy"><img src="images/img1.jpg"></a>
+				<div class="desc">Plage</div>
 			</div>
 
 					
 		</div>
 		<div class="column">
-			<div class="title">Vacance à Morondava</div>
-			<img src="images/img2.jpg">
-			<img src="images/img3.jpg">	
-			<img src="images/img6.jpg">
-			<img src="images/img5.jpg">	
-			<img src="images/img1.jpg">
+			<div class="title" >Vacance à Morondava</div>
+			<div class="img">
+				<a href="images/img10.jpg" data-lightbox= "mygallery"><img src="images/img10.jpg"></a>
+				<div class="desc">Allées des Baobaba</div>
+			</div>
+			<div class="img">
+				<a href="images/img11.jpg" data-lightbox= "mygallery"><img src="images/img11.jpg"></a>
+				<div class="desc">Plage paradisiaque de Morondava</div>
+			</div>
+			<div class="img">
+				<a href="images/img12.jpg" data-lightbox= "mygallery"><img src="images/img12.jpg"></a>
+				<div class="desc">Pirogue sur la plage de Morondava</div>
+			</div>
+
 
 		</div>
 		<div class="column">
 			<div class="title">Vacance à Fianaratsoa</div>
-			<img src="images/img6.jpg">
-			<img src="images/img5.jpg">	
-			<img src="images/img3.jpg">	
-			<img src="images/img1.jpg">
-			<img src="images/img2.jpg">
+			<div class="img">
+				<a href="images/img8.jpg"><img src="images/img8.jpg"></a>
+				<div class="desc">"Tanana Ambony" de Fianarantsoa</div>
+			</div>
+			<div class="img">
+				<a href="images/img7.jpg"><img src="images/img7.jpg"></a>
+				<div class="desc">Un petit village</div>
+			</div>
+			<div class="img">
+				<a href="images/img9.jpg"><img src="images/img9.jpg"></a>
+				<div class="desc">Hôtel de Ville de Fianaratsoa</div>
+			</div>
+
 		</div>
-	</main>	
+	
+	</main>
 	<footer>
 		<div>
-			Merci De Votre Visite 
+			<p>Merci De Votre Visite </p>
 		</div>
-	</footer>		
+		<div class="icon">
+			<i class="fas fa-map-marker-alt"></i>
+			<i class="fas fa-phone"></i>
+			<i class="fas fa-envelope"></i>
+		</div>
+	</footer>
+	<script type="js/lightbox.js"></script>		
 </body>
 </html>
